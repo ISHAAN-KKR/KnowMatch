@@ -53,7 +53,7 @@ def encode_cofounder(cof):
 Interested in: {', '.join(excited_areas) if excited_areas else "Not specified"}
 Open to own: {', '.join(ownership_areas) if ownership_areas else "Not specified"}
 Personality traits: {', '.join(personality_traits) if personality_traits else "Not specified"}
-Stage preference: {cof.preffered_stage or "Not specified"}
+Stage preference: {cof.preferred_stage or "Not specified"}
 Vision: {cof.journey_type or "Not specified"}
 Work style: {', '.join(work_style) if work_style else "Not specified"}
 Comfort with pivots: {cof.suggestion_comfort if cof.suggestion_comfort is not None else "Not specified"}

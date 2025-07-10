@@ -1,3 +1,25 @@
+# Python cache files
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
 .env
+*.env
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Data files
 cofounders_database.csv
+
+# Deployment configs (optional to ignore)
+render.yaml
+
+# One-time utility scripts (optional)
 upload_csv.py
